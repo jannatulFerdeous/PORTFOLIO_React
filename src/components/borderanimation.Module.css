@@ -1,0 +1,35 @@
+.animation{
+   overflow: hidden;  
+   
+} 
+
+.animation::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    background-color: white;
+    transform: rotate(45deg);
+
+}
+
+.animation:hover::before{
+    animation: animate2 2s linear infinite;
+}
+
+@keyframes animate2{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.animation::after{
+    position: absolute;
+    content: '';
+    inset:5px;
+    background:red ;
+    border-radius: 8px;
+}
