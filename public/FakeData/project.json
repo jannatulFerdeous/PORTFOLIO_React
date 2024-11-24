@@ -1,31 +1,38 @@
-
-
-
-
 [
-    {
-      "title": "Business Startup",
-      "description": "Design & Development",
-      "image": "/FakeData/images/project-img1.png",
-      "link":"https://www.linkedin.com/in/jannatulferdeous/",
-      "icon1" : "/FakeData/images/html-icon.png",
-      "icon2" : "/FakeData/images/css-icon.png"
-    },
-    {
-      "title": "Business Startup",
-      "description": "Design & Development",
-      "image": "/FakeData/images/project-img2.png",
-       "link":"https://www.linkedin.com/in/jannatulferdeous/",
-       "icon1" : "/FakeData/images/html-icon.png",
-      "icon2" : "/FakeData/images/css-icon.png"
-    },
-    {
-      "title": "Business Startup",
-      "description": "Design & Development",
-      "image": "/FakeData/images/project-img3.png",
-       "link":"https://www.linkedin.com/in/jannatulferdeous/",
-       "icon1" : "/FakeData/images/html-icon.png",
-      "icon2" : "/FakeData/images/css-icon.png"
-    }
-
-  ]
+  {
+    "title": "E-commerce Admin Dashboard",
+    "description": " Developing an admin dashboard to manage various admin tasks such as CRUD operations, tracking delivery locations, displaying audience overviews with charts, and implementing a refund system",
+    "image": "/FakeData/images/project-img1.png",
+    "link1": "https://majestic-macaron-0ea960.netlify.app/",
+    "link2": "https://github.com/jannatulFerdeous/E-commerce-Admin-Dashboard",
+    "icon1": "/FakeData/images/html-icon.png",
+    "icon2": "/FakeData/images/css-icon.png",
+    "icon3": "/FakeData/images/tailwind.png",
+    "icon4": "/FakeData/images/Redux.png",
+    "icon5": "/FakeData/images/React.png"
+  },
+  {
+    "title": "Keya’s Book Website",
+    "description": " Developing a book website where users can filter books by genre, search for books by title, and navigate through paginated book listings. I’m using a public API for data, with Redux handling the data fetching. Users can add books to a wishlist and view detailed information for each book.",
+    "image": "/FakeData/images/project-img2.png",
+    "link1": "https://keya-s-book.vercel.app/",
+    "link2": "https://github.com/jannatulFerdeous/Keya-s-Book-",
+    "icon1": "/FakeData/images/html-icon.png",
+    "icon2": "/FakeData/images/css-icon.png",
+    "icon3": "/FakeData/images/tailwind.png",
+    "icon4": "/FakeData/images/Redux.png",
+    "icon5": "/FakeData/images/React.png"
+  },
+  {
+    "title": "Girls Product Website",
+    "description": "  Developing a Product purchase website where products can be added, deleted, purchased, and viewed with detailed information.",
+    "image": "/FakeData/images/project-img3.png",
+    "link1": "https://sprightly-kitsune-eabd41.netlify.app/",
+    "link2": "https://github.com/jannatulFerdeous/Girls-Product-Website",
+    "icon1": "/FakeData/images/html-icon.png",
+    "icon2": "/FakeData/images/css-icon.png",
+    "icon3": "/FakeData/images/Bootstrap.png",
+    "icon4": "/FakeData/images/Redux.png",
+    "icon5": "/FakeData/images/React.png"
+  }
+]
