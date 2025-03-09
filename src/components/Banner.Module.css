@@ -1,101 +1,109 @@
-
 .banner {
-    margin-top: 0;
-    padding: 260px 0  100px 0; 
-    position: relative;
-    color: #ffffff; 
-    background-position: top center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #11111177;/* Ensure text color is visible over the background */
-  }
-  
-  .banner::before {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  position: relative;
+  color: #ffffff;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #11111177; /* Ensure text color is visible over the background */
+}
 
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('F:/React Project/portfolio/src/assets/img/bg.jpg');
-    background-size: cover;
-    background-position: center;
-    opacity: 0.76;
-    z-index: -1;
-  }
-  
-.myImage{
-    width: 30px;
-    height: 30px;
-    margin-left: 100px;
-    
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.76;
+  z-index: -1;
+}
+
+.myImage {
+  width: 30px;
+  height: 30px;
+  margin-left: 100px;
 }
 .banner .tagline {
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    padding: 10px 10px;
-    background: linear-gradient(90.21deg, rgba(35, 222, 255, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: 1px solid rgba(122, 232, 252, 0.5);
-    border-radius: 16px;
-    font-size: 20px;
-    margin-bottom: 16px;
-    display: inline-block;
-  }
-  .banner h1 {
-    font-size: 65px;
-    font-weight: 700;
-    letter-spacing: 0.8px;
-    line-height: 1;
-    margin-bottom: 20px;
-    display: block;
-  }
-  .banner p {
-    color: #e8ffe3ef;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    width: 96%;
-    text-align: justify;
-  }
-  .banner button {
-    color: #ffffff;
-   
-    font-size: 15px;
-    margin-top: 60px;
-    letter-spacing: 0.8px;
-    display: inline;
-    align-items: center;
-    background-color: rgba(248, 248, 248, 0.308);
-    padding: 10px 10px;
-   
-    border: 1px solid rgba(122, 232, 252, 0.5);
-    border-radius: 16px;
-    margin-left: 20px;
-  }
-  .banner button:hover{
-   color: #99dcf9ef;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 10px 10px;
+  background: linear-gradient(
+    90.21deg,
+    rgba(35, 222, 255, 0.5) -5.91%,
+    rgba(74, 47, 189, 0.5) 111.58%
+  );
+  border: 1px solid rgba(122, 232, 252, 0.5);
+  border-radius: 16px;
+  font-size: 20px;
+  margin-bottom: 16px;
+  display: inline-block;
+}
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: block;
+}
+.banner p {
+  color: #e8ffe3ef;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  width: 96%;
+  text-align: justify;
+}
+.banner button {
+  color: #ffffff;
 
-  }
+  font-size: 15px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: inline;
+  align-items: center;
+  background-color: rgba(248, 248, 248, 0.308);
+  padding: 10px 10px;
 
-  .banner img {
-    animation: updown 4s linear infinite;
-  }
-  @keyframes updown {
-      0% {
-          transform: translateY(-20px);
-      }
-      50% {
-          transform: translateY(20px);
-      }
-      100% {
-          transform: translateY(-20px);
-      }
-  }
+  border: 1px solid rgba(122, 232, 252, 0.5);
+  border-radius: 16px;
+  margin-left: 20px;
+}
+.banner button:hover {
+  color: #99dcf9ef;
+}
 
-
-  .txt-rotate > .wrap {
-    border-right: 0.08em solid #666;
+.banner img {
+  animation: updown 4s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
   }
-  
-  
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+
+.txt-rotate > .wrap {
+  border-right: 0.08em solid #666;
+}
+.profile-img {
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .profile-img {
+    max-width: 80%;
+  }
+}
